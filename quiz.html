@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="container">
+        <div id="quiz" class="justify-center flex-column"></div>
+            <div id="quizStatus">
+                <div class="quizStatus-item">
+                    <p id="quizStatus-item-text" class="progress-prefix">
+                        Question
+                    </p>
+                    <div id="progressBar">
+                        <div id="progressBarFull">                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="quizStatus-item">
+                    <p class="quizStatus-item-prefix">
+                        Score
+                    </p>
+                    <h1 class="quizStatus-main" id="score">
+                        0
+                    </h1>
+                </div>
+            <div id="question">
+                What is the answer to this question?
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text" option-number="1">Choice</p>
+            </div>
+            
+        </div>
+
+        
+    </div>
+    
+</body>
+</html>
