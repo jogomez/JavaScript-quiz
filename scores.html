@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HighScores</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scores.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div id="scores" class="flex-center flex-column">
+            <h1 id="finalScore">Leader board</h1>
+            <ul id="scoresList"></ul>
+            <a href="index.html" class="button">Home</a>
+        </div>
+    </div>
+    <script>
+        const scoreList = document.querySelector('#scoresList');
+        const scores = JSON.parse(localStorage.getItem('highScores')) || [];
+
+        console.log('highScores :>> ', localStorage.getItem('highScores'));
+        console.log('scores :>> ', scores);
+
+        scoresList.innerHTML = 
+        scores.map(score => {
+            return `<li class="score">${score.name} - ${score.score} </li>`;
+        }).join('');
+    </script>
 </body>
 </html>
