@@ -1,8 +1,7 @@
 # JavaScript quiz
 
 ## About The Project
-This is a timed quiz on JavaScript fundamentals that stores high scores
-for users to gauge their knowledge in JS and compare it with their friends'. 
+This is a timed quiz on JavaScript fundamentals that stores high scores for users to gauge their knowledge in JS and compare it with their friends'. 
 
 ## Table of Contents
 
@@ -19,6 +18,9 @@ Open the app [here](https://jogomez.github.io/JavaScript-quiz/)
 ## Features
 
 The quiz consists of a series of five questions presented in random order, there is a score that increases with every correct answer, and a page where the users can save their score.
+
+<img src="/JS%20Quiz%20Screenshot.png" width="60%" height="30%" style="display: block; margin: 0 auto;">
+
 
 ## Usage
 
