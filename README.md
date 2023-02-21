@@ -14,7 +14,7 @@ for users to gauge their knowledge in JS and compare it with their friends'.
 
 ## Installation
 
-Copy the repo in your local machine, open the repo in your favorite IDE.
+Open the app [here](https://jogomez.github.io/JavaScript-quiz/)
 
 ## Features
 
@@ -27,7 +27,7 @@ Save your score and see other's scores in the Scores page.
 
 ## License
 
-![badmath](https://img.shields.io/badge/license-Apache-lightgrey)
+![license](https://img.shields.io/badge/license-Apache-lightgrey)
 
 ## Tests
 
